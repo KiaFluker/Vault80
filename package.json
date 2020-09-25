@@ -1,0 +1,14 @@
+{
+	"name": "vault80",
+	"version": "1.0.0",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"devDependencies": {
+		"lerna": "^3.22.1"
+	},
+	"scripts": {
+		"story": "lerna run story --stream"
+	}
+}
